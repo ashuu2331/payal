@@ -120,3 +120,24 @@ button:hover {
     from { transform: scale(0.7); }
     to { transform: scale(1); }
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .message {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .container {
+        top: 15vh;
+        padding: 0 10px;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
